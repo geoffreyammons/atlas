@@ -21,6 +21,7 @@ function hierarchify(data) {
   data.sort( (a, b) => a.id - b.id );
 
   for (let d of data) {
+    d.name = d.name_short_en;
     id2obj[d.id] = d;
     id2parentId[d.id] = d.parent_id;
   }
