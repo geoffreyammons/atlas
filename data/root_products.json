@@ -1,0 +1,115 @@
+{
+  "name": "products",
+  "children": [
+    {
+      "code": "0",
+      "id": 0,
+      "level": "section",
+      "name_en": "Textiles, garments, footwear and furniture",
+      "name_es": "Textiles y muebles",
+      "name_short_en": "Textiles",
+      "name_short_es": "Textiles y muebles",
+      "parent_id": null
+    },
+    {
+      "code": "1",
+      "id": 1,
+      "level": "section",
+      "name_en": "Vegetables, animals, wood and paper",
+      "name_es": "Vegetales, alimentos y madera",
+      "name_short_en": "Agriculture",
+      "name_short_es": "Vegetales, alimentos y madera",
+      "parent_id": null
+    },
+    {
+      "code": "2",
+      "id": 2,
+      "level": "section",
+      "name_en": "Stone, glass and ceramics",
+      "name_es": "Piedra y vidrio",
+      "name_short_en": "Stone",
+      "name_short_es": "Piedra y vidrio",
+      "parent_id": null
+    },
+    {
+      "code": "3",
+      "id": 3,
+      "level": "section",
+      "name_en": "Minerals, fuels, ores and salts",
+      "name_es": "Minerales",
+      "name_short_en": "Minerals",
+      "name_short_es": "Minerales",
+      "parent_id": null
+    },
+    {
+      "code": "4",
+      "id": 4,
+      "level": "section",
+      "name_en": "Metals",
+      "name_es": "Metales",
+      "name_short_en": "Metals",
+      "name_short_es": "Metales",
+      "parent_id": null
+    },
+    {
+      "code": "5",
+      "id": 5,
+      "level": "section",
+      "name_en": "Chemicals and plastics",
+      "name_es": "Químicos y plásticos",
+      "name_short_en": "Chemicals",
+      "name_short_es": "Químicos y plásticos",
+      "parent_id": null
+    },
+    {
+      "code": "6",
+      "id": 6,
+      "level": "section",
+      "name_en": "Transport vehicles",
+      "name_es": "Vehículos de transporte",
+      "name_short_en": "Vehicles",
+      "name_short_es": "Vehículos de transporte",
+      "parent_id": null
+    },
+    {
+      "code": "7",
+      "id": 7,
+      "level": "section",
+      "name_en": "Machinery and instruments",
+      "name_es": "Maquinaria",
+      "name_short_en": "Machinery",
+      "name_short_es": "Maquinaria",
+      "parent_id": null
+    },
+    {
+      "code": "8",
+      "id": 8,
+      "level": "section",
+      "name_en": "Electronics",
+      "name_es": "Electrónicos",
+      "name_short_en": "Electronics",
+      "name_short_es": "Electrónicos",
+      "parent_id": null
+    },
+    {
+      "code": "9",
+      "id": 9,
+      "level": "section",
+      "name_en": "Other",
+      "name_es": "Other",
+      "name_short_en": "Other",
+      "name_short_es": "Other",
+      "parent_id": null
+    },
+    {
+      "code": "services",
+      "id": 10,
+      "level": "section",
+      "name_en": "Services",
+      "name_es": "Services",
+      "name_short_en": "Services",
+      "name_short_es": "Services",
+      "parent_id": null
+    }
+  ]
+}
