@@ -40,10 +40,14 @@ function hierarchify(data) {
       let parent = id2obj[parentId];
       place(parent, child);
     }
-    if (child["children"] === undefined) {
-      child.value = 1;
+  }
+
+  for (let d of data) {
+    if (d["children"] === undefined) {
+      d.value = 1;
     }
   }
+
   return root;
 }
 
