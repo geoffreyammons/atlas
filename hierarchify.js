@@ -40,6 +40,9 @@ function hierarchify(data) {
       let parent = id2obj[parentId];
       place(parent, child);
     }
+    if (child["children"] === undefined) {
+      child.value = 1;
+    }
   }
   return root;
 }
