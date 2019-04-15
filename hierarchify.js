@@ -7,6 +7,11 @@ const outputFile = './data/products.json';
 
 const id2parentId = {};
 const id2obj = {};
+const maxValue = 10000;
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
 
 function place(parent, child) {
   if (!parent['children']) { parent.children = [] }
@@ -44,7 +49,7 @@ function hierarchify(data) {
 
   for (let d of data) {
     if (d["children"] === undefined) {
-      d.value = 1;
+      d.value = getRandomInt(maxValue);
     }
   }
 
